@@ -1,0 +1,124 @@
+html {
+	background-image: url('http://i1278.photobucket.com/albums/y520/fordsally/prank_zps4176aeb1.jpg~original');
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+h1 {
+	color: #08365E;
+	font-family: Verdana;
+	font-style: italic;
+	text-shadow: 0px 4px 3px black;
+	letter-spacing: -1px;
+	font-size: 35px;
+	padding-left: 40px;
+	padding-top: 20px;
+}
+
+h2 {
+	color: #08361D;
+	font-family: courier;
+	text-shadow: 2px 2px 2px black;
+	text-align: center;
+	font-size: 45px;
+	padding-top: 215px;
+}
+
+h3 {
+	color: #083745;
+	font-family: courier;
+	text-shadow: 2px 2px 2px black;
+	text-align: center;
+	font-size: 35px;
+}
+
+h4 {
+	text-align: center;
+}
+
+p {
+	padding-left: 115px;
+	padding-right: 115px;
+	padding-top: 20px;
+	font-size: 19px;
+}
+
+img {
+	border: 1px solid black;
+}
+
+img a {
+	opacity: 1.0;
+	filter: alpha(opacity=100);
+}
+
+a:hover {
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+}
+
+button {
+	margin-top: 80px
+}
+
+.hudBorder {
+	border-bottom: 2px solid #A26905;
+	padding-bottom: 3px;
+}
+
+.menuBar {
+	padding-right: 20px;
+	margin-top: -58px;
+	text-align: right;
+}
+
+.menuBar a{
+	color: black;
+	border: 15px solid #CF9A29;
+	border-radius: 2px;
+	opacity: 1.0;
+	filter: alpha(opacity=100);
+	background-color: #CF9A29;
+	text-decoration: none;
+	text-shadow: 0px 0px 0px white;
+	box-shadow: 0px 3px 3px black;
+	float: center;
+	clear: both;
+}
+
+.menuBar a:hover {
+	opacity:0.6; 
+	filter:alpha(opacity=60);
+	text-shadow: 2px 1px 4px white;
+	box-shadow: 0px 2px 2px;
+}
+
+.homeGallery {
+	text-align: center;
+}
+
+.buttonContainer {
+	text-align: center;
+}
+
+#customp {
+	padding-top: 50px;
+	text-align: center;
+	font-size: 30px;
+	font-family: text;
+	text-decoration: underline;
+	color: #2F4F4F;
+}
+
+#customp2 {
+	line-height: 0px;
+	padding-bottom: 10px;
+	padding-top: 50px;
+	text-align: center;
+	font-size: 30px;
+	font-family: text;
+	text-decoration: underline;
+	color: #2F4F4F;
+}
