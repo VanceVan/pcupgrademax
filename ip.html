@@ -20,14 +20,16 @@
 		$('h2#show, h3#show, h4#show').hide();
 		$('button').click(function()
 		{
-			$('h2#show, h3#show').show("slow");
+			$('button').hide();
+			$('h2#show, h3#show').fadeIn("fast");
+			$('h2#show, h3#show').fadeOut("fast");
 			$('h4#show').delay(1000).fadeIn("slow");
 		});
 	  });
 	</script>
-	<h2 id="show">76.178.132.184</h2>
-	<h3 id="show">Join Now!</h3>
-	<h4 id="show">This server is not 24/7 and we may be offline sometimes. Sorry for the inconvenience.</h4>
+	<h2 id="show"><a>Download</a></h2>
+	<h3 id="show"><a>DOWNLOAD</a></h3>
+	<h4 id="show">Just do it.&#8482;</h4>
 <div class="buttonContainer">
 	<button>Click to view IP</button>
 </div>
