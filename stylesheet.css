@@ -1,5 +1,5 @@
 html {
-	background-image: url('http://i1278.photobucket.com/albums/y520/fordsally/prank_zps4176aeb1.jpg~original');
+	background-image: url('http://i1278.photobucket.com/albums/y520/fordsally/City-1080p-Desktop-Wallpaper_zps606e8bb9.jpg~original');
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -7,7 +7,7 @@ html {
 }
 
 h1 {
-	color: #08365E;
+	color: #08367D;
 	font-family: Verdana;
 	font-style: italic;
 	text-shadow: 0px 4px 3px black;
@@ -18,42 +18,105 @@ h1 {
 }
 
 h2 {
-	color: #08361D;
-	font-family: courier;
-	text-shadow: 2px 2px 2px black;
+	color: #212121;
+	font-family: sans-serif;
+	text-shadow: 0px 0px 1px black;
 	text-align: center;
-	font-size: 45px;
-	padding-top: 215px;
+	font-size: 20px;
+	border-bottom: 1px solid #818181;
+	padding-bottom: 6px;
+	border-radius: 6px;
+	margin-left: 60px;
+	margin-right: 60px;
 }
 
 h3 {
 	color: #083745;
-	font-family: courier;
+	font-family: arial;
 	text-shadow: 2px 2px 2px black;
 	text-align: center;
-	font-size: 35px;
+	font-size: 27px;
 }
 
 h4 {
 	text-align: center;
 }
 
+hr {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #999;
+}
+
+.latest {
+	padding: 50px;
+}
+
+.loading {
+	border: 1px solid #818181;
+	border-radius: 10px;
+}
+
+#dismiss {
+	text-decoration: none;
+	color: #114F6E;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+#dismiss:hover {
+	text-decoration: underline;
+}
+
+.loadPa {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 380px;
+}
+
 p {
-	padding-left: 115px;
-	padding-right: 115px;
-	padding-top: 20px;
-	font-size: 19px;
+	padding-left: 80px;
+	padding-right: 80px;
+	font-size: 16px;
+	letter-spacing: 1px;
+	padding-bottom: 20px;
 }
+/* k then */
+ ul#grid {
+    list-style: none;
+	text-align: center;
+    margin: 0 auto;
+    overflow:hidden;
+ }
 
-img {
-	border: 1px solid black;
+ #grid li {
+     float: center;
+     margin: 0 10px 70px 0px;
+     display:inline-block;
+     position: relative;
+ }
+
+ #grid li img {
+     padding: 15px;
+     margin: 0;
+     width: 339px;
+     height: 211px;
+     position:relative;
+ }
+
+#grid li span {
+	display: block;
+	bottom: 241px;
+	position: relative;
+	width: 340px;
+	margin-left: 15px;
+	color: white;
+	background: black;
+	text-decoration: none;
+	font-weight: bold;
 }
-
-img a {
-	opacity: 1.0;
-	filter: alpha(opacity=100);
-}
-
+/* k then */
 a:hover {
 	opacity: 0.9;
 	filter: alpha(opacity=90);
@@ -76,13 +139,15 @@ button {
 
 .menuBar a{
 	color: black;
-	border: 15px solid #CF9A29;
+	border: 1px solid #414141;
 	border-radius: 2px;
+	padding: 15px;
+	margin: 15px;
 	opacity: 1.0;
 	filter: alpha(opacity=100);
-	background-color: #CF9A29;
+	background-image: url('http://i1278.photobucket.com/albums/y520/fordsally/gunmetal-gray_zps64e7d9f8.png~original');
 	text-decoration: none;
-	text-shadow: 0px 0px 0px white;
+	text-shadow: 0px 0px 0px #212121;
 	box-shadow: 0px 3px 3px black;
 	float: center;
 	clear: both;
@@ -91,34 +156,20 @@ button {
 .menuBar a:hover {
 	opacity:0.6; 
 	filter:alpha(opacity=60);
-	text-shadow: 2px 1px 4px white;
+	text-shadow: 2px 1px 4px #000000;
 	box-shadow: 0px 2px 2px;
-}
-
-.homeGallery {
-	text-align: center;
 }
 
 .buttonContainer {
 	text-align: center;
 }
 
-#customp {
-	padding-top: 50px;
-	text-align: center;
-	font-size: 30px;
-	font-family: text;
-	text-decoration: underline;
-	color: #2F4F4F;
-}
-
-#customp2 {
-	line-height: 0px;
-	padding-bottom: 10px;
-	padding-top: 50px;
-	text-align: center;
-	font-size: 30px;
-	font-family: text;
-	text-decoration: underline;
-	color: #2F4F4F;
+.content {
+	margin-top: 80px;
+	margin-left: 50px;
+	margin-right: 50px;
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+	border: 1px solid #BBBBBB;
+	background-color: #F5F5F5;
 }

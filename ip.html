@@ -1,37 +1,95 @@
 <DOCTYPE html>
-	<link rel="stylesheet" href="stylesheet.css" type="text/css">
-	<title>Chicken Craft - Survival PVP</title>
-	<body>
+<html>
+	<head>
+		<link rel="stylesheet" href="stylesheet.css" type="text/css">
+		<script src="jquery.js" type="text/javascript" charset="utf-8"></script>
+		<title>PC UPGRADE MAX</title>
+	</head>
+<body>
 <!-- HUD Start -->
 	<div class="hudBorder">	
-		<h1>&#305&#305&#305 Chicken Craft &#305&#305&#305</h1>
+		<h1>&#305&#305&#305 PC UPGRADE MAX &#305&#305&#305</h1>
 	</div>
-			<div class="menuBar">
-				<a href="/">Home</a>
-				<a href="/ip.html">Server IP</a>
-				<a href="/about.html">About Us</a>
-			</div>
+		<div class="menuBar">
+			<a href="/">Home</a>
+			<a href="/ip.html">Downloads</a>
+			<a href="/about.html">About Us</a>
+		</div>
 <!-- HUD End -->
-
-<script src="jquery-1.10.1.js" type="text/javascript" charset="utf-8"></script>
-	<script>
-	$(document).ready(function()
-	{
-		$('h2#show, h3#show, h4#show').hide();
-		$('button').click(function()
-		{
-			$('button').hide();
-			$('h2#show, h3#show').fadeIn("fast");
-			$('h2#show, h3#show').fadeOut("fast");
-			$('h4#show').delay(1000).fadeIn("slow");
-		});
-	  });
-	</script>
-	<h2 id="show"><a>Download</a></h2>
-	<h3 id="show"><a>DOWNLOAD</a></h3>
-	<h4 id="show">Just do it.&#8482;</h4>
-<div class="buttonContainer">
-	<button>Click to view IP</button>
-</div>
+	<div class="content">
+		<h2>Downloads</h2>
+		<div id="stage1">  
+			<p class="loadPa">Downloading Component...<img class="loading" src="http://i1278.photobucket.com/albums/y520/fordsally/checking_zps85bd6bee.gif~original">
+			</p>
+		</div>
+		<div id="stage2">
+			<p class="loadPa">Download Complete. <a href="#" id="dismiss">Dismiss</a></p>
+		</div>
+		<div class="portfolio">
+			<ul id="grid">
+					<li>
+						<img src="http://images17.newegg.com/is/image/newegg/20-233-170-TS?$S300W$" />
+						<a href="#" id="a"><span>Download to Computer!</span></a>
+					</li>
+					<li>
+						<img src="http://images17.newegg.com/is/image/newegg/20-721-108-TS?$S300W$" />
+						<a href="#" id="a"><span>Download to Computer!</span></a>
+					</li>
+					<li>
+						<img src="http://images17.newegg.com/is/image/newegg/14-487-048-Z03?$S300$" />
+						<a href="#" id="a"><span>Download to Computer!</span></a>
+					</li>
+					<li>
+						<img src="http://images17.newegg.com/is/image/newegg/19-113-351-TS?$S300W$" />
+						<a href="#" id="a"><span>Download to Computer!</span></a>
+					</li>
+					<li>
+						<img src="http://images17.newegg.com/is/image/newegg/35-181-032-TS?$S300W$" />
+						<a href="#" id="a"><span>Download to Computer!</span></a>
+					</li>
+					<li>
+						<img src="http://images17.newegg.com/is/image/newegg/96-112-078-TS?$S300W$" />
+						<a href="#" id="a"><span>Download to Computer!</span></a>
+					</li>
+					<li>
+						<img src="http://images10.newegg.com/NeweggImage/ProductImageCompressAll300/625828499005-01.jpg" />
+						<a href="#" id="a"><span>Download to Computer!</span></a>
+					</li>
+					<li>
+						<img src="http://skcomputerworld.files.wordpress.com/2013/03/55b3825ee39ada2fcddf7c7accdf7c7accbde69e.png?w=614" />
+						<a href="#" id="a"><span>Download to Computer!</span></a>
+					</li>
+					<li>
+						<img src="http://images10.newegg.com/NeweggImage/ProductImageCompressAll300/A1V1_1_20131031251972490.jpg" />
+						<a href="#" id="a"><span>Download to Computer!</span></a>
+					</li>
+					<li>
+						<img src="http://images17.newegg.com/is/image/newegg/17-438-013-TS?$S300W$" />
+						<a href="#" id="a"><span>Download to Computer!</span></a>
+					</li>
+					<li>
+						<img src="http://images17.newegg.com/is/image/newegg/13-128-700-TS?$S300$" />
+						<a href="#" id="a"><span>Download to Computer!</span></a>
+					</li>
+					<li>
+						<img src="http://images17.newegg.com/is/image/newegg/78-190-349-Z03?$S300W$"/>
+						<a href="#" id="a"><span>Download to Computer!</span></a>
+					</li>
+					<script>
+					$( document ).ready(function() {
+						$("#stage1, #stage2").hide();
+						$('a#a').click(function() {
+							$("#stage1").fadeIn( 500 ).delay( 4000 ).fadeOut(function(){
+								$("#stage2").fadeIn(500);
+								$("#dismiss").click(function(){
+									$("#stage2").fadeOut(500);
+								});
+							});
+						});
+					});
+					</script>
+			</ul>
+		</div>
+	</div>
 </body>
 </html>
